@@ -1,0 +1,82 @@
+.body-container {
+    background-image: linear-gradient(#6baace, #264783);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-item>div {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* these rules are used to make sure in mobile devices, tab panes are not all the same height (for example 'forgot' pane is not as tall as 'signup' pane) */
+
+  @media (max-width: 1199.98px) {
+    .tab-sliding .tab-pane:not(.active) {
+      max-height: 0 !important;
+    }
+
+    .tab-sliding .tab-pane.active {
+      min-height: 80vh;
+      max-height: none !important;
+    }
+  }
+
+  .sombralogin{
+    -webkit-box-shadow: -14px 11px 98px 6px rgba(0,0,0,1);
+  -moz-box-shadow: -14px 11px 98px 6px rgba(0,0,0,1);
+  box-shadow: -14px 11px 98px 6px rgba(0,0,0,1);
+  z-index: 2;
+  min-height: 100vh;
+  }
+  .sombraTexbox{
+    -webkit-box-shadow: 1px -1px 19px -9px rgba(15,57,186,1);
+    -moz-box-shadow: 1px -1px 19px -9px rgba(15,57,186,1);
+    box-shadow: 1px -1px 19px -9px rgba(15,57,186,1);
+    border: 1px solid #287ABE;
+  }
+  .login-logo {
+      position: absolute;
+      left: 10%;
+      z-index: 5;
+      background-color: #fff;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      width: 150px;
+      height: 150px;
+      -webkit-box-shadow: 0 12px 30px -5px #000;
+      box-shadow: 0 12px 30px -5px #000;
+  }
+  .login-logo .login-logo-image {
+      width: 120px;
+      height: 120px;
+      z-index: 1;
+      margin: 20px 0;
+      border: 0;
+      outline: 0;
+      -o-object-fit: contain;
+      object-fit: contain;
+  }
+  .form-login{
+      width: 100%;
+    }
+  @media (max-width: 767px){
+  .login-logo {
+        background-color: #ad1419;
+        background-color:#ad1419;
+        width: 100%;
+        left: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        position: relative;
+        min-height: 160px;
+        -webkit-box-shadow: 0 -9px 24px 9px #000;
+        box-shadow: 0 -9px 24px 9px #000;
+    }
+    .sombralogin{
+    min-height: 80vh;
+    }
+  
+  }

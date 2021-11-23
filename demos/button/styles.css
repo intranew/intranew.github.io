@@ -1,0 +1,80 @@
+input, button {
+    width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --navbar-height: 4.5rem;
+    --navbar-sm-height: 4rem;
+    --navbar-mobile-height: 4rem;
+    --sidebar-width: 16rem;
+    --sidebar-collapsed-width: 5rem;
+    --sidebar-horizontal-height: 4.25rem;
+    --sidebar-horizontal-collapsed-height: 4rem;
+    direction: ltr;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: visible;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding-right: 1.5rem!important;
+    color: #51575d;
+    background-color: #fff;
+    border-radius: .125rem;
+    font-family: inherit;
+    transition-duration: 120ms;
+    box-shadow: 1px -1px 19px -9px rgba(15,57,186,1);
+    border: 1px solid #287ABE;
+}
+
+.d-flex.align-items-center.input-floating-label.text-blue.brc-blue-m2 {
+    margin-top: 20px;
+}
+
+.d-flex.align-items-center.input-floating-label.text-blue.brc-blue-m2 i {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.d-flex.align-items-center.input-floating-label.text-blue.brc-blue-m2 label {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
